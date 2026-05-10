@@ -59,11 +59,11 @@ java-socket-programming/
 
 #### Client
 
-![Client Output](src/level2_continuous_chat/client-chat.jpg)
+![Client Output](src/level2_continuous_chat/client-side-chat.jpg)
 
 #### Server
 
-![Server Output](src/level2_continuous_chat/server-chat.jpg)
+![Server Output](src/level2_continuous_chat/server-side-chat.jpg)
 
 ---
 
