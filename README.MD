@@ -27,7 +27,7 @@ java-socket-programming/
 │   └── level2_continuous_chat/
 │
 └── README.md
-
+```
 ---
 
 ## Level 1 - Single Message Communication
