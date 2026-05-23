@@ -1,4 +1,4 @@
-package level2_continuous_chat;
+package level2_echo_and_continuous_chat;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -24,7 +24,7 @@ java-socket-programming/
 │
 ├── src/
 │   ├── level1_single_client_server/
-│   └── level2_continuous_chat/
+│   └── level2_echo_and_continuous_chat/
 │
 └── README.md
 ```
@@ -59,11 +59,11 @@ java-socket-programming/
 
 #### Client
 
-![Client Output](src/level2_continuous_chat/client-side-chat.jpg)
+![Client Output](src/level2_echo_and_continuous_chat/client-side-chat.jpg)
 
 #### Server
 
-![Server Output](src/level2_continuous_chat/server-side-chat.jpg)
+![Server Output](src/level2_echo_and_continuous_chat/server-side-chat.jpg)
 
 ---
 
