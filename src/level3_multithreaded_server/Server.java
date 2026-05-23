@@ -1,4 +1,4 @@
-package level3_multithreaded_server.level2_echo_and_continuous_chat;
+package level3_multithreaded_server;
 
 
 import java.net.ServerSocket;
