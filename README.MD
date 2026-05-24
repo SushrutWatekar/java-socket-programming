@@ -69,11 +69,11 @@ java-socket-programming/
 
 #### Client
 
-![Client Output](src/level2_echo_and_continuous_chat/client-side-chat.jpg)
+![Client Output](src/level2_echo_and_continuous_chat/2_client-side-chat.jpg)
 
 #### Server
 
-![Server Output](src/level2_echo_and_continuous_chat/server-side-chat.jpg)
+![Server Output](src/level2_echo_and_continuous_chat/2_server-side-chat.jpg)
 
 ---
 
@@ -103,13 +103,13 @@ java-socket-programming/
 #### Multithreaded Client Handling
 
 #### Server
-![Multithreaded Server](src/level3_multithreaded_server/server_terminal.png)
+![Multithreaded Server](src/level3_multithreaded_server/3_server_terminal.png)
 #### Client 1
-![Multithreaded Server](src/level3_multithreaded_server/client1.png)
+![Multithreaded Server](src/level3_multithreaded_server/3_client1.png)
 #### Client 2
-![Multithreaded Server](src/level3_multithreaded_server/client2.png)
+![Multithreaded Server](src/level3_multithreaded_server/3_client2.png)
 #### Client 3
-![Multithreaded Server](src/level3_multithreaded_server/client3.png)
+![Multithreaded Server](src/level3_multithreaded_server/3_client3.png)
 
 
 
