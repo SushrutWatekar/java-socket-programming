@@ -1,4 +1,4 @@
-package level4_broadcast.level3_multithreaded_server;
+package level4_broadcast_and_usernames;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -15,6 +15,7 @@ public class ClientHandler extends Thread {
     Socket socket;
     PrintWriter out;
     BufferedReader in;
+    String username;
 
     public ClientHandler(Socket socket) {
         this.socket = socket;
@@ -40,6 +41,12 @@ public class ClientHandler extends Thread {
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
 
+            out.println("Enter username:");
+            username = in.readLine();
+
+            System.out.println(username + " joined the chat");
+            broadcastMessage("[SERVER]: " + username + " joined the chat");
+
             while (true) {
                 String clientMessage = in.readLine();
 
@@ -57,18 +64,18 @@ public class ClientHandler extends Thread {
                 System.out.println("Received: " + clientMessage);
 
                 // broadcast message
-                broadcastMessage(clientMessage);
+                broadcastMessage("[" + username + "]: " + clientMessage);;
             }
 
         } catch (Exception e) {
-            System.out.println("Client Disconnected");
+                System.out.println(username + " disconnected unexpectedly");
 
         } finally {
 
             try {
                 clients.remove(this);
                 socket.close();
-                System.out.println("Connection closed");
+                broadcastMessage("[SERVER]: " + username + " left the chat");
 
             } catch (Exception e) {
                 System.out.println("Error closing socket");
